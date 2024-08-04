@@ -219,7 +219,7 @@ func (p *Parser) parseEvent() (event event.Event, err error) {
 	}
 
 	if event == nil {
-		return nil, fmt.Error("Event is null")
+		return nil, fmt.Errorf("Event is null")
 	}
 
 	event.DeltaTime().Quantity().SetValue(deltaTime.Quantity().Value())
