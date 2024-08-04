@@ -1,3 +1,3 @@
-module github.com/moutend/go-midi
+module github.com/bioblaze/go-midi
 
 go 1.15
